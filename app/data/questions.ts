@@ -20,13 +20,23 @@ export const allQuestions = {
       correctIndex: 1,
       explanation:
         "Ductility is the ability of a material to be drawn or stretched into wire.",
+    }
+  ],
+
+  manufacturing: [
+    {
+      id: "man-001",
+      question: "Which process permanently joins metal parts?",
+      options: ["Filing", "Welding", "Drilling", "Marking out"],
+      correctIndex: 1,
+      explanation: "Welding permanently joins metals using heat.",
     },
     {
-      id: "mat-003",
-      question: "Which material is a good electrical conductor?",
-      options: ["Plastic", "Rubber", "Copper", "Wood"],
-      correctIndex: 2,
-      explanation: "Copper is widely used because it conducts electricity well.",
-    },
-  ],
+      id: "man-002",
+      question: "Which process removes material from a rotating workpiece?",
+      options: ["Turning", "Casting", "Forging", "Extrusion"],
+      correctIndex: 0,
+      explanation: "Turning removes material from a rotating workpiece.",
+    }
+  ]
 };
